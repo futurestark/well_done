@@ -1,0 +1,2 @@
+/* This file is empty, since Example class is a template, and C ++ implementation of template class must be in the header-file. When you create don't template class is usually an implementation must necessarily be in the .cpp-file!
+ * Этот файл пуст, т.к. класс Example является шаблонным, а в C++ реализация шаблонного класса должна находиться в header-файле. При создании обычного НЕ шаблонного класса реализация обязательно должна находиться в .cpp-файле! */
