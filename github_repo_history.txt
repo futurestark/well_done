@@ -1,0 +1,301 @@
+TML - template , meta programming
+
+1  ls
+    2  cd d
+    3  cd b
+    4  cd b:
+    5  ls
+    6  cd geek/
+    7  ls
+    8  cd CPP_third_lesson/
+    9  ls
+   10  cd CPP_third_lesson.
+   11  ls
+   12  git https://github.com/futurestark/well_done.git
+   13  git status
+   14  git init
+   15  git status
+   16  ls
+   17  git remote add origin https://github.com/futurestark/well_done.git
+   18  ls
+   19  git push origin master
+   20  ls
+   21  git push -u origin master
+   22  git push futurestark origin master
+   23  git remote -v
+   24  git comit -m "firts push"
+   25  git status
+   26  git push origin master
+   27  git fetch origin
+   28  git push origin master
+   29  git merge origin branch
+   30  git pull origin branch
+   31  git push origin branch
+   32  git push https://github.com/futurestark/well_done.git master
+   33  git init
+   34  ls
+   35  git add CPP_third_lesson.cpp
+   36  git commit -m "first push"
+   37  git config --global user.futurestark "Vitalik"
+   38  git commit -m "first push"
+   39  git config --global user.name "futurestark"
+   40  git config --global user.email "ischenkoVitaly@gmail.com"
+   41  git commit -m "first push"
+   42  git remote add origin https://github.com/futurestark/well_done.git
+   43  git push -u origin master
+   44  git pull <remote>
+   45  git pull https://github.com/futurestark/well_done.git
+   46  git pull --no-commit https://github.com/futurestark/well_done.git
+   47  ls
+   48  mkdir homeworks
+   49  ls
+   50  cd homeworks/
+   51  ls
+   52  git init
+   53  git init
+   54  git clone https://github.com/futurestark/well_done.git
+   55  git add *
+   56  ls
+   57  git commit -m "first push"
+   58  git remote -v
+   59  origin https://github.com/futurestark/well_done.git (fetch)
+   60  git remote -v
+   61  ls
+   62  cd ..
+   63  git remote -v
+   64  ls
+   65  git push origin master
+   66  git pull origin master
+   67  git push https://github.com/futurestark/well_done.git
+   68  git remote -v
+   69  git push master
+   70  git push origin
+   71  git push --set-upstream origin master
+   72  ls
+   73  git clone https://github.com/futurestark/well_done.git
+   74  ls
+   75  git push --set-upstream origin master
+   76  git status
+   77  git add *
+   78  git status
+   79  git commit -m "some mesS"
+   80  git push
+   81   git push --set-upstream origin master
+   82  git pull
+   83  git log
+   84  git log --oneline
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  mkdir gitloal
+   89  cd gitloal/
+   90  git clone https://github.com/futurestark/well_done.git
+   91  ls
+   92  cd well_done/
+   93  ls
+   94  git add .
+   95  git status
+   96  git commit -m "some mess"
+   97  git push
+   98  ls
+   99  ls
+  100  git checkout -b home_11_06_2019
+  101  git push origin home_11_06_2019
+  102  ls
+  103  history
+  104  git checkout -b md_docs
+  105  git push origin md_docs
+  106  ls
+  107  ls
+  108  gid add git.md
+  109  git add git.md
+  110  git status
+  111  git push origin md_docs
+  112  ls
+  113  git status
+  114  ls
+  115  git status
+  116  git commit -m "first md"
+  117  git push
+  118  git push origin md_docs
+  119  ls
+  120  git add arrays_pointers.md base_operations.md intro_develop.md CPP_third_lesson.cpp Lang_C_composition.md program_management_statements_develop.md second_home.md git.md
+  121  ls
+  122  git status
+  123  git push origin md_docs
+  124  git commit -m "add new md"
+  125  git push origin md_docs
+  126  ls
+  127  ды
+  128  ls
+  129  cd B
+  130  ls
+  131  cd ..
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd /b
+  136  cd gitloal/
+  137  ls
+  138  cd well_done/
+  139  ls
+  140  history
+  141  git add dynamic_memory.md
+  142  git status
+  143  git commit -m "added_dynam_mem"
+  144  git push origin md_docs
+  145  git add function_develop.md function_work.md simple_user_data_type.md
+  146  git status
+  147  gid commit -m "function and user data types"
+  148  git push origin md_docs
+  149  git status
+  150  git push md_docs
+  151  git commit -m "funcs and structs"
+  152  git push md_docs
+  153  git push origin md_docs
+  154  history
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+And to push changes to remote repo
+
+git push origin branch_name  
+		   ----------- tolko napluzhil s cache mne pred idushi file vstavlalsa v repo --------
+  187  git rm --cached git.md
+  188  git rm --cached simple_user_data_types.md
+  189  git rm --cached simple_user_data_type.md
+  190  git commit -m "delete all"
+  191  git push origin home_1_discriminant
+  192  git add home1_discriminant.cpp
+  193  git status
+  194  git commit -m "added first homework"
+  195  git push origin home_1_discriminant
+  196  git checkout -b home_4_uppercase_reverse
+  197  git add home4_uppercase_reverse.cpp
+  198  git commit -m "added fourth homework"
+  199  git push origin home_4_uppercase_reverse
+  200  git rm home1_discriminant.cpp
+  201  git push origin home_4_uppercase_reverse
+  202  git commit -m "delete wron home"
+  203  git push origin home_4_uppercase_reverse
+  204  git checkout -b home_5_sorts
+  205  git add home5_quick_bubblesorte.cpp
+  206  git status
+  207  git push origin home_5_sorts
+  208  git commit -m "add home sorts"
+  209  git push origin home_5_sorts
+  210  git rm home4_uppercase_reverse.cpp
+  211  git commit -m "delete home4"
+  212  git push origin home_5_sorts
+  213  git checkout -b home_6_stack_queue_struct
+  214  git commit home6_stack_queue_struct.cpp -m "all containers as structs"
+  215  git add home6_stack_queue_struct.cp home_6_stack_queue_struct
+  216  git add home6_stack_queue_struct.cpp home_6_stack_queue_struct
+  217  git add home6_stack_queue_struct.cpp home_6_stack_queue_struct
+  218  git status
+  219  git add home6_stack_queue_struct.cpp
+  220  git status
+  221  git commit -m "added containers as structs"
+  222  git status
+  223  git push home_6_stack_queue_struct
+  224  git push origin home_6_stack_queue_struct
+  225  git rm home5_quick_bubblesorte.cpp
+  226  git commit -m "delete home 5"
+  227  git status
+  228  git push origin home_6_stack_queue_struct
+  229  ls
+  230  git checkout -b home_7_stack_OOP
+  231  ls
+  232  git add StackOOP.cpp Stack.cpp Stack.h
+  233  git status
+  234  git commit -m "added stack OOP object creates in stack not heap"
+  235  git push origin home_7_stack_OOP
+  236  git rm home6_stack_queue_struct.cpp
+  237  git commit -m "delete home 6"
+  238  git push origin home_7_stack_OOP
+  239  ls
+  240  git history
+  241  history
+  
+
+
+  242  cd ..
+  243  cd ..
+  244  cd /d
+  245  cd gitloal
+  246  cd ..
+  247  cd /b
+  248  cd gitloal/
+  249  ls
+  250  cd well_done/
+  251  ls
+  252  git checkout -b home_tasks_and_sources
+  253  ls
+  254  git add home_second.md home_third.md home_four.md home_five.md home_six.md home_seven.md home_eight.md home_nine.md home_ten.md home_eleven.md
+  255  git status
+  256  git push origin home_tasks_and_sources
+  257  git status
+  258  git commit -m "tasks_added"
+  259  git push origin home_tasks_and_sources
+  260  git rm Stack.cpp Stack.h StackOOP.cpp
+  261  git commit -m "removed cpp stack files"
+  262  git push origin home_tasks_and_sources
+  263  cd md_docs
+  264  cd md_docs
+  265  git checkout md_docs
+  266  ls
+  267  git rm simple_user_data_type.md
+  268  git rm simple_user_data_type.md
+  269  git status
+  270  git checkout md_docs
+  271  git add git_basics.md git_md
+  272  git add git_basics.md git.md
+  273  git commit -a
+  274  cd ..
+  275  cd ..
+  276  cd /b
+  277  cd gitloal/
+  278  ls
+  279  cd well_done/
+  280  git checkout md_docs
+  281  git status
+  282  git commit -m "added git basic"
+  283  git status
+  284  git push origin home_tasks_and_sources
+  285  git checkout md_docs
+  286  git commit -a
+  287  git commit -m "added git_basics"
+  288  ls
+  289  git push origin home_tasks_and_sources
+  290  ls
+  291  git checkout md_docs
+  292  ls
+  293  ls
+  294  git add 0_data_types.md 1_variable_and_data_type_develop.md
+  295  git commit -m "begin to make structure for md"
+  296  ls
+  297  git push origin md_docs
+  298  ls
+  299  ls
+  300  git status
+  301  git add 2_base_operations.md 3_program_management_statements_develop.md 4_arrays_pointers.md 5_function_work.md 6_function_develop.md 7_simple_user_data_type.md 8_dynamic_memory.md Stack_and_object_dev.md inheritance.md operator_overload.md virtual_functions.md work_with_file_in_c_style.md
+  302  git commit -m "added all md"
+  303  git push origin md_docs
+  304  ls
+  305  ls
+  306  git rm CPP_third_lesson.cpp Lang_C_composition.md Stack_and_object_dev.md arrays_pointers.md base_operations.md dynamic_memory.md function_develop.md function_work.md git.md inheritance.md intro_develop.md operator_overload.md program_management_statements_develop.md second_home.md simple_user_data_type.md virtual_functions.md work_with_file_in_c_style.md
+  307  git status
+  308  git commit -m "delete garbagge"
+  309  git push origin md_docs
+  310  ls
+  311  git add 9_work_with_file_in_c_style.md 10_Class_and_object_dev.md 11_inheritance.md 12_virtual_functions.md 13_operator_overload.md 14_templates.md 1_variable_and_data_type-develop/ 2_Base_operation_C--develop/ 3_program_management_statements-develop/ 4_array_pointer_base_concept-develop/ 5_function-work/ 6_function-develop/ 7_simple_user_data_type-develop/ 8_dynamic_memory-develop/ 9_work_with_file_in_c_style-develop/ 10_Class_and_object-develop/ 11_inheritance-develop_8/ 12_virtual_function-polymorphism/ 13_operator_overload-develop/ 14_template-develop/
+  312  git status
+  313  git commit -m "added all md and all sources"
+  314  git push origin md_docs
+  315  history
+
+
