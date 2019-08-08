@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g -fPIC   -std=gnu++11 -o CMakeFiles/firstHomeAdvanced.dir/firstHomeAdvanced.cpp.o -c /home/jarvis/firstHomeAdvanced/firstHomeAdvanced.cpp",
+  "file": "/home/jarvis/firstHomeAdvanced/firstHomeAdvanced.cpp"
+},
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build/googletest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /home/jarvis/firstHomeAdvanced/googletest/googlemock/include -isystem /home/jarvis/firstHomeAdvanced/googletest/googlemock -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest/include -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest  -g -fPIC   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jarvis/firstHomeAdvanced/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/jarvis/firstHomeAdvanced/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build/googletest/googlemock",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/jarvis/firstHomeAdvanced/googletest/googlemock/include -I/home/jarvis/firstHomeAdvanced/googletest/googlemock -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest/include -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest  -g -fPIC   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jarvis/firstHomeAdvanced/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/jarvis/firstHomeAdvanced/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build/googletest/googletest",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest/include -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest  -g -fPIC   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/jarvis/firstHomeAdvanced/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/jarvis/firstHomeAdvanced/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build/googletest/googletest",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/jarvis/firstHomeAdvanced/googletest/googletest/include -I/home/jarvis/firstHomeAdvanced/googletest/googletest  -g -fPIC   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/jarvis/firstHomeAdvanced/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/jarvis/firstHomeAdvanced/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jarvis/firstHomeAdvanced/build/test",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest/include -isystem /home/jarvis/firstHomeAdvanced/googletest/googletest  -g -fPIE   -std=gnu++11 -o CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -c /home/jarvis/firstHomeAdvanced/test/ExampleTests.cpp",
+  "file": "/home/jarvis/firstHomeAdvanced/test/ExampleTests.cpp"
+}
+]

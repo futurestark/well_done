@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20190805-1354-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.10.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="jarvis-VivoBook-17-ASUS-Laptop-X705UF"
+	OSRelease="4.18.0-25-generic"
+	OSVersion="#26~18.04.1-Ubuntu SMP Thu Jun 27 07:28:31 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7860"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2400"
+	>
+	<Testing>
+		<StartDateTime>Aug 05 17:06 EEST</StartDateTime>
+		<StartTestTime>1565013998</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>/home/jarvis/advancedCPP/Example/build/test/ExampleTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00286889</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/jarvis/advancedCPP/Example/build/test/ExampleTests</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMFOwzAMvecrfFwPbcYHcEBs2gEBVQenqkImNSVT4kxJWvh8GlpNKxJS3+nJfvazX9Uza+7AouZNBh/eWZCfzpI8oR90kNgOyIra+7KU+2+0Z0Oyc64zFCnEaxq8kl1ib2lZoZSoby9ooJqdbiBpJqeZh15HKkSdX9DAwbh3NFOfeNDesSUetRTz/vxHfL1zPvJlLARRQ/X6BL9oFp1iR9ZxiB4jHVLlEZV3aWDC88O6AdhswYZs3TmTGKKLaDKx7t9I6PPWffEyzf9SBI9cLH3Gl8q743G/SxlM2kL8AKEbovo=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 05 17:06 EEST</EndDateTime>
+		<EndTestTime>1565013998</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

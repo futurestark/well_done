@@ -1,0 +1,91 @@
+Start testing: Aug 08 17:49 EEST
+----------------------------------------------------------
+1/1 Testing: ExampleTests
+1/1 Test: ExampleTests
+Command: "/home/jarvis/firstHomeAdvanced/build/test/ExampleTests"
+Directory: /home/jarvis/firstHomeAdvanced/build/test
+"ExampleTests" start time: Aug 08 17:49 EEST
+Output:
+----------------------------------------------------------
+Running main() from /home/jarvis/firstHomeAdvanced/googletest/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ExampleTests
+[ RUN      ] ExampleTests.combineVectors
+combinedVectorSize 10
+resultVectorSize 10
+5 
+6 
+7 
+8 
+9 
+12 
+13 
+14 
+15 
+16 
+[       OK ] ExampleTests.combineVectors (0 ms)
+[ RUN      ] ExampleTests.reverseFrowardList
+
+	reversed forward list is : 
+8 7 6 5 4 3 2 1 [       OK ] ExampleTests.reverseFrowardList (0 ms)
+[ RUN      ] ExampleTests.createNumber
+
+elements in vector and list are : 
+5
+5
+5
+25
+2
+5
+125
+1
+5
+625
+6
+5
+3125
+3
+5
+15625
+1
+5
+
+
+
+/home/jarvis/firstHomeAdvanced/test/ExampleTests.cpp:99: Failure
+Value of: valuesList
+Expected: has 11 elements where
+element #0 is equal to "1",
+element #1 is equal to "2",
+element #2 is equal to "5",
+element #3 is equal to "1",
+element #4 is equal to "5",
+element #5 is equal to "6",
+element #6 is equal to "5",
+element #7 is equal to "3",
+element #8 is equal to "5",
+element #9 is equal to "1",
+element #10 is equal to "5"
+  Actual: { "5", "2", "5", "1", "5", "6", "5", "3", "5", "1", "5" }, whose element #0 doesn't match
+[  FAILED  ] ExampleTests.createNumber (0 ms)
+[ RUN      ] ExampleTests.Square
+[       OK ] ExampleTests.Square (0 ms)
+[----------] 4 tests from ExampleTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExampleTests.createNumber
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"ExampleTests" end time: Aug 08 17:49 EEST
+"ExampleTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 08 17:49 EEST

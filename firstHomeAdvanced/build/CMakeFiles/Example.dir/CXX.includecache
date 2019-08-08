@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jarvis/advancedCPP/Example/Example.cpp
+Example.hpp
+/home/jarvis/advancedCPP/Example/Example.hpp
+
+/home/jarvis/advancedCPP/Example/Example.hpp
+

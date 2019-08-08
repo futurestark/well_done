@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfirstHomeAdvanced.a  CMakeFiles/firstHomeAdvanced.dir/firstHomeAdvanced.cpp.o
+/usr/bin/ranlib libfirstHomeAdvanced.a

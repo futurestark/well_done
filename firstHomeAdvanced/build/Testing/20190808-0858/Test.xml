@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20190808-0858-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.10.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="jarvis-VivoBook-17-ASUS-Laptop-X705UF"
+	OSRelease="5.0.0-23-generic"
+	OSVersion="#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7857"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2400"
+	>
+	<Testing>
+		<StartDateTime>Aug 08 17:49 EEST</StartDateTime>
+		<StartTestTime>1565275777</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>/home/jarvis/firstHomeAdvanced/build/test/ExampleTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0033412</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/jarvis/firstHomeAdvanced/build/test/ExampleTests</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNVN+P2jAMfl7+Cuv2sEPiVymUo9IekAbbdKfbBOxeEJpCa6BTm7AkLadN+9/ntBWjTBQCURx/tuN8dTxLhYjEFhIeifsGbJRMoLOTCXZ+cJVFurOJlDafSDEOMy4CDDtbKbcxGtTmVNQq6Gyt9N2GagcBW74/jhXMynP6YG10cZCTb0CnkcE2W7aOYwUfY7nmcYGjyCIlRYKCbNG00v2ZcSXo5JUn+xgXVsOWMPv2DPlYVZB2IJN1JPAFAyOVZuU2LPbz6BeC02UKdRqbqm4AzAM2BPYAbATM6dF0afZpEuYQuCxOhC+P9afCfRcS3ajJUmGGSuNUyQNX4VOkDWNvSmUIG6msGmLSQ6TBt0kNwYMBUeJCjwi+nMr/oa+nEyjkBp/TZI2KMYzRfhMNkYAsvxFwUWbDFdp0BvmvR39aHFodWj1aPVpdq3AtMPBKiMaV6suLrZrUfu+PRj5MeRSnCtkLj1MEufEhs5LOWZu87ilDDH3YcQ2OA8fkDzskp3ILb7uWSPyZ2uKTcOfcNf9hThXrnWK9KjY4xdyamP0av0EV804xr8ZvWMXcU+yhxm9Ud/fuuSMDGAeG9j78zgPljJSSc5S8o+Seo/CnSfRLjXBCfyhRi3eGOpIJdvYpTcefnyYfamvxeuXOKXH6zJefQ2FwDHRTeymsiQ7D4wa7rYEZ5KoVyoOo9seLfREUF+3qQXSJr+P5vODELRzbVaaKCM38LVKjWGMsD/6NZDJG7qXdYjJfsL8fCtvc====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 08 17:49 EEST</EndDateTime>
+		<EndTestTime>1565275777</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
